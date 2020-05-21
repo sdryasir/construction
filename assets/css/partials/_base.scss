@@ -1,0 +1,89 @@
+$blue: #020e28;
+$orange: #f55b15;
+$grey:#f7f8fa;
+$green:#129131;
+$darkgrey:#171a1f;
+$white:#ffffff;
+$black: #000000;
+.btn-custom-filled{
+    background-color: $orange;
+    border-radius: 1.5rem;
+    padding: 0.3rem 1rem;
+    display: inline-block;
+    color: $white!important;
+
+}
+.btn-custom-bordered{
+    border: 1px solid $orange;
+    border-radius: 1.5rem;
+    padding: 0.3rem 1rem;
+    display: inline-block;
+    color: $orange!important;
+}
+
+/*
+primary color (Blue):
+#020e28
+rgb(2, 14, 40)
+primary second (orange):
+#f55b15
+rgb(245, 91, 21)
+grey:
+#f7f8fa
+rgb(247, 248, 250)
+green:
+#129131
+rgb(18, 145, 49)
+dark grey:
+#171a1f
+rgb(23, 26, 31)
+*/
+html{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 20px 0;
+    color: $black;
+    font-weight: 400;
+}
+
+h1,
+.h1 {
+    font-size: 28px
+}
+
+h2,
+.h2 {
+    font-size: 24px
+}
+
+h3,
+.h3 {
+    font-size: 20px
+}
+
+h4,
+.h4 {
+    font-size: 16px
+}
+.sec-space{
+    padding: 60px 0;
+}
