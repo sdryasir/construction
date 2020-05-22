@@ -2,9 +2,10 @@ $(document).ready(function () {
     $('.projects-owl-slider').owlCarousel({
         loop: true,
         margin: 0,
-        nav: true,
+        nav: false,
+        dots: true,
         items: 5,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 2000,
         center: true,
     })

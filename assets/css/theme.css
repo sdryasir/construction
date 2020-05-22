@@ -478,6 +478,25 @@ h4,
   color: #ffffff;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  border: 0.1rem solid #f55b15 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover {
+  background-color: transparent !important;
+}
+
+.owl-theme .owl-dots .owl-dot:focus {
+  outline: none !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  border-radius: none;
+  width: 1rem;
+  height: 0.4rem;
+  background-color: none;
+}
+
 @media (max-width: 767.98px) {
   .top-contact-bar {
     display: none;

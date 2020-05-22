@@ -326,4 +326,24 @@
     }
 
 }
+.owl-theme .owl-dots .owl-dot span {
+    
+    border: 0.1rem solid $orange!important;
+    &:hover{
+        background-color: transparent!important;
+    }
+}
+.owl-theme .owl-dots .owl-dot {
+    &:focus{
+        outline: none!important;
+    }
+    &.active{
+       span{
+           border-radius: none;
+           width: 1rem;
+           height: 0.4rem;
+           background-color: none;
+       }
+   }
+}
 @import './partials/media'
